@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: left;
+}
+
+.pokemon {
+  flex: 1 0 20%; /* explanation below */
+  margin: 1.5rem;
+  height: 100px;
+}
+
+.pokemon .details img {
+  object-fit: none;
+}
+
+.pokemon .details {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 2px 3px 0 rgba(0,0,0,.05);
+  padding: 1rem;
+}
+
+.pokemon .details a {
+  cursor: pointer;
+}
+.pokemon .details a:hover {
+  text-decoration: underline;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-navigation a {
+    cursor: pointer;
+}
+
+.loading {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

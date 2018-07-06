@@ -13,6 +13,7 @@ export const PokemonSimple = props =>
 
 export const PokemonDetail = props =>
 <section>
+    <Link to="/">Go to Pokémon List</Link>
     <h1>{props.name}</h1>
     Weight: {props.weight}
     Heigth: {props.heigth}

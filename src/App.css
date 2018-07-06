@@ -51,10 +51,13 @@
   padding: 1rem;
 }
 
-.pokemon .details a {
+a {
+  color: rgba(0,0,0,.8);
+  text-decoration: none;
   cursor: pointer;
 }
-.pokemon .details a:hover {
+
+a:hover {
   text-decoration: underline;
 }
 
@@ -73,3 +76,9 @@
   justify-content: center;
   align-items: center;
 }
+
+li {
+  list-style: none;
+}
+
+a {}

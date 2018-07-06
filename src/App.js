@@ -14,7 +14,7 @@ const App = props =>
             <h1 className="App-title">Pokémon Grid</h1>
             <nav className="main-navigation">
               <li>
-                <Link to="/">Grid</Link>
+                <Link to="/">Home</Link>
               </li>
             </nav>
           </header>

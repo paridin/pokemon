@@ -1,6 +1,12 @@
 # Pokémon API
 This is a demo app to use the [Pokémon API](https://pokeapi.co/)
 
+## Install
+### `npm install`
+
+if you are using yarn just type `yarn` in your terminal, both instructions will download the required packages.
+
+
 ## Available Scripts
 
 In the project directory, you can run:

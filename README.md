@@ -1,5 +1,5 @@
 # Pokémon API
-This is a demo app to use the [https://pokeapi.co/](Pokémon API)
+This is a demo app to use the [Pokémon API](https://pokeapi.co/)
 
 ## Available Scripts
 
